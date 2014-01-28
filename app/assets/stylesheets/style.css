@@ -46,7 +46,7 @@ i.white{
 
 hr.line{
 	border:none;
-	background: url(../img/linebg.jpg) center center repeat-x;
+	background: url(/assets/linebg.jpg) center center repeat-x;
 	display:block;
 	width:100%;
 	height:20px;
@@ -202,7 +202,7 @@ border:0px;
 
 /***************** HEADERS **************************/
 .page-header{
-	background: url(../img/linebg.jpg) center center repeat-x;
+	background: url(/assets/linebg.jpg) center center repeat-x;
 }
 .page-header.inner-header{
 	margin-top:50px;
@@ -706,10 +706,10 @@ border-radius: 500px;
 /******************* WORKS & PORTFOLIO ***************************************/
 
 #portfolio-section{
-	background:url( ../img/blogbg.png) repeat;
+	background:url( /assets/blogbg.png) repeat;
 }
 #portfolio-section .page-header h3{
-	background:url( ../img/blogbg.png) repeat;
+	background:url( /assets/blogbg.png) repeat;
 }
 
 
@@ -844,7 +844,7 @@ filter: alpha(opacity=0);
 
 /******************** FEATURES SECTION ******************/
 #features-section{
-	background:url( ../img/blogbg.png) repeat;
+	background:url( /assets/blogbg.png) repeat;
 	/*background: url( ../../images/sloganbg.jpg) 50% 0% fixed repeat;*/
 	position:relative;
 	padding-bottom:50px;
@@ -859,7 +859,7 @@ filter: alpha(opacity=0);
 
 
 #features-section .page-header h3{
-	background:url( ../img/blogbg.png) repeat;
+	background:url( /assets/blogbg.png) repeat;
 }
 
 
@@ -1038,12 +1038,12 @@ span.slogan{
 /* ############### TEAM SECTION ###################### */
 
 #team-section{
-background: url(../img/blogbg.png) repeat;
+background: url(/assets/blogbg.png) repeat;
 
 }
 
 #team-section .page-header h3 {
-background: url(../img/blogbg.png) repeat;
+background: url(/assets/blogbg.png) repeat;
 }
 
 .ileft{
@@ -1186,11 +1186,11 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25),8px 8p
 
 /**********************SECTION SLIDER ***********************/
 #slider-section {
-	background:url( ../img/blogbg.png) repeat;
+	background:url( /assets/blogbg.png) repeat;
 }
 
 #slider-section .page-header h3{
-	background:url( ../img/blogbg.png) repeat;
+	background:url( /assets/blogbg.png) repeat;
 }
 
 #carousel_vertical_slide.carousel, #carousel_vertical_slide_2.carousel, #carousel_horizontal_slide.carousel, #carousel_horizontal_slide_2.carousel{
@@ -1460,10 +1460,10 @@ span.slogan .tweetList li p p.timestamp{
 /* ########################## CONTACT SECTION   ##################*/
 
 #contact-section{
-	background:url( ../img/blogbg.png) repeat;
+	background:url( /assets/blogbg.png) repeat;
 }
 #contact-section .page-header h3{
-	background:url( ../img/blogbg.png) repeat;
+	background:url( /assets/blogbg.png) repeat;
 }
 
 
@@ -1551,14 +1551,14 @@ footer address{
 }
 
 #blog-section{
-	background:url( ../img/blogbg.png) repeat;
+	background:url( /assets/blogbg.png) repeat;
 	padding-top:0px;
 }
 #blog-section.with-padding-top{
 	padding-top:40px;
 }
 #blog-section .page-header h3{
-	background:url( ../img/blogbg.png) repeat;
+	background:url( /assets/blogbg.png) repeat;
 }
 
 #blog-section .panel {
