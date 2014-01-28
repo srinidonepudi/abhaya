@@ -12,9 +12,9 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 @charset "utf-8";
 /* CSS Document */
 
-				
+
 #features-section{
-	background:url(../../images/firstBG.jpg) 50% 0 repeat fixed;
+	background:url(/assets/firstBG.jpg) 50% 0 repeat fixed;
 	color:#fff;
 	height: 900px;
 	margin: 0 auto;
@@ -25,7 +25,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #team-section{
-	background: url(../../images/secondBG.jpg) 50% 0 no-repeat fixed;
+	background: url(/assets/secondBG.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -34,7 +34,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #second .bg{
-	background: url(../../images/trainers.png) 50% 0 no-repeat fixed;
+	background: url(/assets/trainers.png) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -44,10 +44,10 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #portfolio-section{
-	background: url(../../images/thirdBG.jpg) 50% 0 no-repeat fixed;
+	background: url(/assets/thirdBG.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1170px;
-	padding: 40px 0 0 0;	
+	padding: 40px 0 0 0;
 }
 
 #price-section{

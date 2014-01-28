@@ -592,7 +592,7 @@ box-shadow: none;
 
 #header-section{
 	background: url(/assets/headerbg.jpg) 50% 0% fixed repeat;
-	/*background: url( ../../images/sloganbg.jpg) 50% 0% fixed repeat;*/
+	/*background: url( /assets/sloganbg.jpg) 50% 0% fixed repeat;*/
 	position:relative;
 	display:inline-block;
 	width:100%;
@@ -606,7 +606,7 @@ box-shadow: none;
 }
 
 #header-section-blog{
-	background: url( ../../images/sloganbg.jpg) 50% 0% fixed repeat;
+	background: url( /assets/sloganbg.jpg) 50% 0% fixed repeat;
 	position:relative;
 	display:inline-block;
 	width:100%;
@@ -845,7 +845,7 @@ filter: alpha(opacity=0);
 /******************** FEATURES SECTION ******************/
 #features-section{
 	background:url( /assets/blogbg.png) repeat;
-	/*background: url( ../../images/sloganbg.jpg) 50% 0% fixed repeat;*/
+	/*background: url( /assets/sloganbg.jpg) 50% 0% fixed repeat;*/
 	position:relative;
 	padding-bottom:50px;
 	display:inline-block;
@@ -970,8 +970,8 @@ color:#e93f33;
 /******************* SLOGAN SECTION *******************/
 
 .slogan-section{
-	background: url( ../../images/sloganbg.jpg) 50% 0% fixed repeat;
-	/*background: url( ../../images/sloganbg.jpg) 50% 0% fixed repeat;*/
+	background: url( /assets/sloganbg.jpg) 50% 0% fixed repeat;
+	/*background: url( /assets/sloganbg.jpg) 50% 0% fixed repeat;*/
 	position:relative;
 	display:inline-block;
 	width:100%;
