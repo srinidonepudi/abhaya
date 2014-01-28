@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
 
   devise_for :users
+
   root 'pages#home'
 
   get '/home', controller: 'pages', action: 'home'
+
+  post '/webform', controller: 'pages', action: 'webform'
 
   resources :pictures
 
