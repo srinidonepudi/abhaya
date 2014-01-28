@@ -14,7 +14,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 
 #features-section{
-	background:url(/assets/firstBG.jpg) 50% 0 repeat fixed;
+	background:url(<%= asset_path "firstBG.jpg" %>) 50% 0 repeat fixed;
 	color:#fff;
 	height: 900px;
 	margin: 0 auto;
@@ -25,7 +25,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #team-section{
-	background: url(/assets/secondBG.jpg) 50% 0 no-repeat fixed;
+	background: url(<%= asset_path "secondBG.jpg" %>) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -34,7 +34,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #second .bg{
-	background: url(/assets/trainers.png) 50% 0 no-repeat fixed;
+	background: url(<%= asset_path "trainers.png" %>) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -44,7 +44,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #portfolio-section{
-	background: url(/assets/thirdBG.jpg) 50% 0 no-repeat fixed;
+	background: url(<%= asset_path "thirdBG.jpg" %>) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1170px;
 	padding: 40px 0 0 0;
