@@ -28,6 +28,19 @@
 
 <body data-spy="scroll" data-target=".scroller-spy" data-twttr-rendered="true">
 
+<% if notice.present? %>
+
+  <div id="notice" class="modal">
+    <div class="modal-header">
+      <h3><%= notice %></h3>
+    </div>
+    <div class="modal-footer">
+      <a href="#notice" role="button" class="btn btn-danger" data-toggle="modal">Close</a>
+    </div>
+  </div>
+
+<% end %>
+
 <%= yield %>
 
 </body>
