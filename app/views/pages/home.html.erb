@@ -75,43 +75,43 @@
 
           <!--########## item #############-->
           <div class="item">
-            <%= image_tag 'seeds/1.jpg' %>
+            <%= image_tag '/seeds/1.jpg' %>
           </div>
           <!--############/item###########-->
 
           <!--########## item #############-->
           <div class="item">
-            <%= image_tag 'seeds/3.jpg' %>
+            <%= image_tag '/seeds/3.jpg' %>
           </div>
           <!--############/item###########-->
           <!--########## item #############-->
           <div class="item">
-            <%= image_tag 'seeds/5.jpg' %>
+            <%= image_tag '/seeds/5.jpg' %>
           </div>
           <!--############/item###########-->
           <!--########## item #############-->
           <div class="item">
-            <%= image_tag 'seeds/6.jpg' %>
+            <%= image_tag '/seeds/6.jpg' %>
           </div>
           <!--############/item###########-->
           <!--########## item #############-->
           <div class="item">
-            <%= image_tag 'seeds/7.jpg' %>
+            <%= image_tag '/seeds/7.jpg' %>
           </div>
           <!--############/item###########-->
           <!--########## item #############-->
           <div class="item">
-            <%= image_tag 'seeds/9.jpg' %>
+            <%= image_tag '/seeds/9.jpg' %>
           </div>
           <!--############/item###########-->
           <!--########## item #############-->
           <div class="item">
-            <%= image_tag 'seeds/15.jpg' %>
+            <%= image_tag '/seeds/15.jpg' %>
           </div>
           <!--############/item###########-->
           <!--########## item #############-->
           <div class="item">
-            <%= image_tag 'seeds/16.jpg' %>
+            <%= image_tag '/seeds/16.jpg' %>
           </div>
           <!--############/item###########-->
 
@@ -440,7 +440,7 @@ The main ground behind the school has a basket ball court, courts for volley bal
         <div class="carousel-inner">
         <% Picture.all.each_with_index do |picture, i| %>
           <div class="item <%= i == 0 ? "active" : nil %>">
-            <%= image_tag asset_path(picture.image_url), style: 'height: 480px' %>
+            <%= image_tag picture.image_url, style: 'height: 480px' %>
             <h2 class="text-center"><%= picture.caption %></h2>
           </div>
         <% end %>
