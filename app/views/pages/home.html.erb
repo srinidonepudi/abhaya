@@ -440,7 +440,7 @@ The main ground behind the school has a basket ball court, courts for volley bal
         <div class="carousel-inner">
         <% Picture.all.each_with_index do |picture, i| %>
           <div class="item <%= i == 0 ? "active" : nil %>">
-            <%= image_tag picture.image_url, style: 'height: 480px' %>
+            <%= image_tag asset_path(picture.image_url), style: 'height: 480px' %>
             <h2 class="text-center"><%= picture.caption %></h2>
           </div>
         <% end %>
